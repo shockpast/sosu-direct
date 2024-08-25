@@ -1,15 +1,16 @@
-# shosu
+# sosu-direct
 
-To install dependencies:
+It works on Windows only *(as of writing, 25/08/2024)*
 
-```bash
-bun install
-```
+## Usage
 
-To run:
+- `sosu://<beatmapset_id>` in Run *(WIN+R)*
 
-```bash
-bun run src/index.ts
-```
+## Requirements
 
-This project was created using `bun init` in bun v1.1.25. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+- [Bun](https://bun.sh/)
+
+## Installation
+
+- Run `install.bat`
+- Done, use `sosu://<beatmapset_id>` to download.
