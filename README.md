@@ -8,7 +8,7 @@ It works on Windows only *(as of writing, 25/08/2024)*
 
 ## Requirements
 
-- [Bun](https://bun.sh/)
+- [Bun](https://bun.sh/) for `install.bat` that uses Bun as backend for downloading songs.
 
 ## Installation
 
