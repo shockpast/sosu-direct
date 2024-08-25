@@ -1,0 +1,14 @@
+{
+  "description": "sosu!direct extension for Firefox that adds simple button.",
+  "manifest_version": 2,
+  "name": "sosu!direct",
+  "version": "1.0",
+  "homepage_url": "https://github.com/xoderton/sosu-direct/tree/extension",
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": ["*://osu.ppy.sh/beatmapsets/*"],
+      "js": ["sosu.js"]
+    }
+  ]
+}
