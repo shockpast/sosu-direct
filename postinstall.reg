@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\sosu]
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\sosu\shell]
+[HKEY_CLASSES_ROOT\sosu\shell\open]
+[HKEY_CLASSES_ROOT\sosu\shell\open\command]
+@="%W\middleware.bat" %1
